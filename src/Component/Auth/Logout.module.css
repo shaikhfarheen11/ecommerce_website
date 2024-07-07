@@ -1,0 +1,10 @@
+.logoutContainer{
+
+    border-radius: 0.5rem;
+    background-color: rgb(43, 15, 66);
+    width: 7rem;
+    font-size: large;
+    font-weight: bold;
+    height: 3.5rem;
+   
+  }

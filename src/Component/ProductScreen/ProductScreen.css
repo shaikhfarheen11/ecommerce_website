@@ -1,0 +1,240 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.0rem;
+    justify-content: space-between;
+    margin-left: 11rem;
+  }
+  
+  
+  .card-img-top.smaller-image {
+    max-width: 320px;
+    margin-top: 4rem;
+    
+  }
+  .product-title {
+    font-size: 1.2rem;
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7rem !important; 
+  
+  }
+  
+  .card-subtitle.mb-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 7rem;
+    margin-top: 2rem; 
+  }
+  
+  .products .product-card {
+    border: none;
+    padding: 0;
+   
+  }
+  .cart-badge {
+    position: absolute;
+    top: 5px;
+    right: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    z-index: 100;
+    font-size: 2rem;
+  }
+  
+  .cart-badge-text {
+    margin-left: 5px;
+  }
+  
+  .cart-preview {
+    position: absolute;
+    top: 60px;
+    right: -340px; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 100; 
+  }
+  .cart-preview-item {
+    margin-bottom: 5px;
+  }
+  .card-text{
+    margin-right: 11rem;
+    font-size: 1.3rem;
+  
+    
+  }
+  .card-button {
+    margin-right: 13rem;
+    width: 9rem;
+    height: 3rem;
+    
+  }
+  .navbar {
+    height: 50px; 
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    display: flex;
+   
+   
+  }
+  .navbar .nav-link {
+    color: white; 
+    margin-right: 4rem !important;
+    border: #fff;
+    margin-left: -0.9rem;
+    
+   
+  }
+  .navbar .mx-auto .nav-link {
+    margin-right: 3.5rem; 
+  
+  }
+  
+  .image-zoom:hover {
+    transform: scale(1.2);
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .logout-nav{
+    font-size: 1.3rem !important;
+    margin-top: 0.5rem;
+    border: 3px solid #fff !important;
+    border-radius: 1rem;
+  }
+  .generics-section {
+    background-color: grey;
+    padding: 20px 0;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    left: calc(-50vw + 50%);
+    height: 15rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3.3rem; 
+  }
+  
+  .music-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    margin-top: -1rem !important; 
+  }
+  .merch-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    margin-top: 3.5rem !important; 
+  }
+  
+  .generics-title {
+    font-size: 8rem;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin-top: -1.6rem;
+    
+  
+  }
+  
+  
+  .see-the-cart {
+    background-color: rgb(34, 32, 32);
+    color: rgb(109, 197, 231);
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    width: 150px;
+  }
+  .custom-add-to-cart-button {
+    background-color: #4dcbeb !important;
+    color: #f1fcff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 13rem;
+    width: 9rem;
+    padding: 0.5rem !important;
+    font-weight: bold !important;
+  }
+  .custom-add-to-cart-button:hover {
+    background-color: #17bee7 !important;
+    color: #fff !important;
+  }
+  .home-section{
+  background-color: grey;
+    padding: 20px 0;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    left: calc(-50vw + 50%);
+    height: 14rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -0.4rem; 
+  }
+  .home-title{
+    font-size: 8rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 7rem;
+    
+  }
+  .the-generics {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -117rem;
+    height: 8rem;
+    background-color: #56CCF2;
+    font-size: 8rem;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+  }
+  
+   
+  
+  .generics-tit {
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 14rem;
+    margin-top: -5rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .social-icons{
+  margin-left: 60rem;
+  font-size: 3rem;
+  margin-top: 1.2rem;
+  
+  
+  }
+  .facebook-icon{
+    margin-right: -1rem;
+    color: rgb(72, 72, 172);
+    cursor: pointer;
+  }
+  .youtube-icon{
+    margin-right: 6rem;
+    color: rgb(192, 22, 22);
+    cursor: pointer;
+    
+  }
+  .youtube-icon:hover,
+    .spotify-icon:hover,
+    .facebook-icon:hover{
+  background-color:#ccc;
+  }
+  .spotify-icon{
+    margin-right: 6rem;
+    color: rgb(48, 196, 122);
+    cursor: pointer;
+  }
