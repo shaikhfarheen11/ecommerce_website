@@ -1,7 +1,7 @@
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import classes from './ProductDetails.module.css';
-
 
 const ProductDetails = ({ productsArr }) => {
   const { id } = useParams();
@@ -28,20 +28,13 @@ const ProductDetails = ({ productsArr }) => {
   }
 
   return (
-    <div className = {classes.productdetailscontainer}>
-      <div className= {classes.imagecontainer}>
-        <div
-          className={`zoomable-image ${isZoomed ? 'zoomed' : ''}`}
-          onClick={toggleZoom}
-        >
-          <img
-            id className = {classes.productimage}
-            src={selectedProduct.imageUrl}
-            alt={selectedProduct.title}
-          />
+    <div className={classes.productdetailscontainer}>
+      <div className={classes.imagecontainer}>
+        <div className={`zoomable-image ${isZoomed ? 'zoomed' : ''}`} onClick={toggleZoom}>
+          <img id="product-image" className={classes.productimage} src={selectedProduct.imageUrl} alt={selectedProduct.title} />
         </div>
       </div>
-      <div className= {classes.textcontainer}>
+      <div className={classes.textcontainer}>
         <h2>{selectedProduct.title}</h2>
         <div className="price">Price: ${selectedProduct.price}</div>
         <div className="reviews">
