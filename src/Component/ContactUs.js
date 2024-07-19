@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from './ContactUs.module.css';
 
 const firebaseConfig = {
-  databaseURL: 'https://react-hp-325a3-default-rtdb.firebaseio.com/',
+  databaseURL: 'https://ecommerce-web-ba88b-default-rtdb.firebaseio.com/',
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
